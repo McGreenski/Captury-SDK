@@ -306,7 +306,7 @@ namespace Captury
         //=============================
         // this is run once at startup
         //=============================
-        void Start()
+        public void LooKForActors()
         {
             // start the connection thread
             communicationThread = new Thread(lookForActors);
